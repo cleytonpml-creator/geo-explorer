@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "nome": "Cachoeira do Vale",
+    "regiao": "Serra do Mar",
+    "dificuldade": "Fácil",
+    "distancia": "4,8 km",
+    "tempo": "1h 40min",
+    "tipo": "Caminhada",
+    "descricao": "Percurso leve com paisagens de mata atlântica e uma bela vista para a cachoeira.",
+    "coordenadas": [-22.9519, -43.2105]
+  },
+  {
+    "id": 2,
+    "nome": "Mirante das Águas",
+    "regiao": "Mantiqueira",
+    "dificuldade": "Média",
+    "distancia": "8,2 km",
+    "tempo": "3h 10min",
+    "tipo": "Trilha de montanha",
+    "descricao": "Subida gradual com clima mais frio, vales e um mirante panorâmico ao final da rota.",
+    "coordenadas": [-22.2917, -45.4707]
+  },
+  {
+    "id": 3,
+    "nome": "Pico do Sol",
+    "regiao": "Chapada Diamantina",
+    "dificuldade": "Difícil",
+    "distancia": "12,5 km",
+    "tempo": "5h 30min",
+    "tipo": "Trilha de aventura",
+    "descricao": "Rota intensa com aclives íngremes, pedras e uma visão deslumbrante da paisagem.",
+    "coordenadas": [-13.3511, -41.1312]
+  },
+  {
+    "id": 4,
+    "nome": "Riacho Encantado",
+    "regiao": "Parque Estadual",
+    "dificuldade": "Fácil",
+    "distancia": "3,4 km",
+    "tempo": "1h 05min",
+    "tipo": "Passeio ecológico",
+    "descricao": "Trilha tranquila com pequenos pontos de descanso, vegetação exuberante e fauna local.",
+    "coordenadas": [-24.4594, -47.9643]
+  }
+]

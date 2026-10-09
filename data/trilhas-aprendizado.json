@@ -1,0 +1,44 @@
+{
+  "python": {
+    "nome": "Python Developer",
+    "modulos": [
+      "Fundamentos da Linguagem",
+      "Estruturas de Dados e POO",
+      "APIs e Integrações",
+      "Projetos com IA"
+    ],
+    "desafios": {
+      "iniciante": "Crie um script que receba uma lista de números e retorne apenas os pares ordenados.",
+      "intermediario": "Construa um validador de CPF em Python utilizando funções e expressões regulares.",
+      "avancado": "Implemente um servidor assíncrono que consome uma API externa e salva o cache em memória."
+    }
+  },
+  "java": {
+    "nome": "Java Spring Specialist",
+    "modulos": [
+      "Sintaxe e Orientação a Objetos",
+      "Spring Boot e Injeção de Dependências",
+      "JPA / Hibernate e Banco de Dados",
+      "Segurança e Microserviços"
+    ],
+    "desafios": {
+      "iniciante": "Escreva um método que inverta uma string sem usar métodos utilitários prontos.",
+      "intermediario": "Implemente uma API REST básica usando Spring Boot com endpoints de CRUD.",
+      "avancado": "Configure autenticação JWT com Spring Security e controle de permissões por roles."
+    }
+  },
+  "cybersecurity": {
+    "nome": "Fundamentos de Cibersegurança",
+    "modulos": [
+      "Redes e Protocolos",
+      "Segurança da Informação e LGPD",
+      "Análise de Vulnerabilidades",
+      "Engenharia Social e Defesa Ativa"
+    ],
+    "desafios": {
+      "iniciante": "Escreva um algoritmo de cifra de César simples que criptografe e descriptografe mensagens.",
+      "intermediario": "Crie um scanner de portas TCP básico usando sockets em Python.",
+      "avancado": "Desenvolva um analisador de logs que detecte tentativas repetidas de brute force e gere alertas."
+    }
+  }
+}

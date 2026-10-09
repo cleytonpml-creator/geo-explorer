@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geo Explorer</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">Geo Explorer</div>
+      <nav class="nav">
+        <a href="#trilhas">Trilhas</a>
+        <a href="#sobre">Sobre</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Descubra rotas incríveis</p>
+          <h1>Explore paisagens, trilhas e aventuras ao ar livre.</h1>
+          <p class="lead">
+            Encontre opções de caminhada, trekking e mirantes em diferentes regiões.
+          </p>
+        </div>
+      </section>
+
+      <section id="trilhas" class="section">
+        <div class="section-header">
+          <h2>Trilhas disponíveis</h2>
+          <div class="filter">
+            <label for="filtro">Filtrar por dificuldade:</label>
+            <select id="filtro">
+              <option value="todas">Todas</option>
+              <option value="Fácil">Fácil</option>
+              <option value="Média">Média</option>
+              <option value="Difícil">Difícil</option>
+            </select>
+          </div>
+        </div>
+        <div id="lista-trilhas" class="cards" aria-live="polite"></div>
+      </section>
+
+      <section id="sobre" class="section about">
+        <h2>Sobre o projeto</h2>
+        <p>
+          O Geo Explorer reúne trilhas e pontos de interesse em um só lugar para ajudar você a
+          planejar sua próxima saída.
+        </p>
+      </section>
+    </main>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
